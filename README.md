@@ -21,6 +21,51 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+---
+
+## Getting Started
+
+### Prerequisites
+
+- **XAMPP/WAMP** (Add PHP to your environment path)
+- **Composer**
+- **Node.js**
+
+### Creating a New Project
+
+1. **Create Laravel Project**
+   ```bash
+   composer create-project laravel/laravel "project-name"
+   ```
+
+2. **Modify `.env` File**  
+   Update your environment variables as needed.
+
+3. **Install Dependencies**
+   ```bash
+   npm install
+   composer install
+   ```
+
+4. **Run Migrations**
+   ```bash
+   php artisan migrate
+   ```
+
+5. **Start Development Servers**
+   ```bash
+   php artisan serve
+   npm run dev
+   ```
+
+### If You Cloned the Project
+
+After cloning, run:
+
+```bash
+php artisan
+```
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
